@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@color/white"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="143dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="First"
+        android:textAlignment="center"
+        android:textColor="#455A64"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstWay"
+        android:layout_width="159dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Way"
+        android:textAlignment="center"
+        android:textColor="#546E7A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="150dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="88dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Second"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/seconddWay"
+            android:layout_width="159dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="120dp"
+
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="120dp"
+            android:background="@color/material_dynamic_neutral60"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Way"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="159dp"
+            android:layout_height="159dp"
+            android:background="@color/material_dynamic_primary40"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Third"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView9"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:onClick="thirdBtn"
+            app:layout_constraintVertical_bias="0.444" />
+
+        <TextView
+            android:id="@+id/thirdWar"
+            android:layout_width="150dp"
+            android:layout_height="158dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/material_dynamic_tertiary20"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Way"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.413"
+            android:onClick="ThirdWayBtn"/>
+    </LinearLayout>
+
+</LinearLayout>
